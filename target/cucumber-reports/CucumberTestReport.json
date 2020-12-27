@@ -1,0 +1,204 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Verify policy change Homeowners Dwelling Limit",
+        "description": "",
+        "id": "policychange-in-homeowners-dwelling;verify-policy-change-homeowners-dwelling-limit;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7136861200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is alreadyon login page",
+            "match": {
+              "location": "GWpolicyChangeStepDefinition.user_is_alreadyon_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32011000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of logon page is Guidewire PolicyCenter",
+            "match": {
+              "location": "GWpolicyChangeStepDefinition.title_of_logon_page_is_Guidewire_PolicyCenter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 169318200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"su\" and \"gw\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "su",
+                  "offset": 13
+                },
+                {
+                  "val": "gw",
+                  "offset": 22
+                }
+              ],
+              "location": "GWpolicyChangeStepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5383400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is then directed to home page",
+            "match": {
+              "location": "GWpolicyChangeStepDefinition.user_is_then_directed_to_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2126199900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the policy number in the search box",
+            "match": {
+              "location": "GWpolicyChangeStepDefinition.user_enters_the_policy_number_in_the_search_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2060856700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is directed to the policy page and clicks on Coverages",
+            "match": {
+              "location": "GWpolicyChangeStepDefinition.user_is_directed_to_the_policy_page_and_clicks_on_Coverages()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2296101700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User verifies the homeowners dwelling limit against the expected result",
+            "match": {
+              "location": "GWpolicyChangeStepDefinition.user_verifies_the_homeowners_dwelling_limit_against_the_expected_result()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2219574900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on summary and verifies the pending policy transcations",
+            "match": {
+              "location": "GWpolicyChangeStepDefinition.user_clicks_on_summary_and_verifies_the_pending_policy_transcations()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2075096300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on transaction number",
+            "match": {
+              "location": "GWpolicyChangeStepDefinition.user_clicks_on_transaction_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1060309100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on the policy center contract coverages",
+            "match": {
+              "location": "GWpolicyChangeStepDefinition.user_clicks_on_the_policy_center_contract_coverages()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 637686000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User validates the homeowners dwelling limit policy change against the expected results",
+            "match": {
+              "location": "GWpolicyChangeStepDefinition.user_validates_the_homeowners_dwelling_limit_policy_change_against_the_expected_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9320815800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User LogOut from the Application",
+            "match": {
+              "location": "GWpolicyChangeStepDefinition.user_LogOut_from_the_Application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6071500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is directed to the Login Page",
+            "match": {
+              "location": "GWpolicyChangeStepDefinition.user_is_directed_to_the_Login_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 725849500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User quits the browser",
+            "match": {
+              "location": "GWpolicyChangeStepDefinition.user_quits_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PolicyChange in Homeowners Dwelling",
+    "description": "",
+    "id": "policychange-in-homeowners-dwelling",
+    "keyword": "Feature",
+    "uri": "src/main/java/Features/ploicyChange.feature"
+  }
+]
