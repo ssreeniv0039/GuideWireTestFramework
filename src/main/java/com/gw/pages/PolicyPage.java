@@ -22,6 +22,11 @@ public class PolicyPage extends TestBase{
 		@FindBy(xpath = "//span[contains(text(),'Coverages')]")
 		WebElement coverages;
 		
+		@FindBy(xpath = "//span[contains(text(),'Forms')]")
+		WebElement forms;
+		
+		@FindBy(xpath = "//span[contains(text(),'Optional Property Coverages')]")
+		WebElement OPC;
 		
 		
 		
@@ -42,7 +47,12 @@ public class PolicyPage extends TestBase{
 		public void clickOnSummary() {
 			summary.click();
 		}
-		
+		public void clickOnForms() {
+			forms.click();
+		}
+		public void clickonOPC() {
+			OPC.click();
+		}
 		
 		
 		

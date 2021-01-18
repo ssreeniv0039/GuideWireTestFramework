@@ -11,7 +11,7 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions(
-		features = "src/main/java/Features/ploicyChange.feature",
+		features = "src/main/java/Features/Coverage.feature",
 		glue = {"stepDefinitions"},
 //		tags = {"@GuideWireApplicationTest"},
 		format = {
